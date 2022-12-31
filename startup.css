@@ -1,0 +1,113 @@
+/* Startup Website */
+
+html, body, .cover {
+	height: 100% ;
+	
+}
+
+.cover {
+  min-height: 1100px; /* Adjust the value as needed */	
+  background-image: url('img/logB.jpg');
+  background-size: cover;
+  background-position: center;
+	
+	display: table;
+	width: 100%;
+	padding: 0 20%;
+	
+	
+}
+
+
+.cover-text {
+	text-align: center;
+	color:white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cover-text h1 {
+	font-size: 60px;
+	color:burlywood;
+	margin: 0;
+	letter-spacing: -4px;
+}
+
+.nav navbar {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+}
+
+
+
+
+section {
+	padding: 100px;
+}
+
+h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 60px;
+}
+
+h2 + p{
+	text-align: center;
+	margin-top: -50px;
+}
+
+
+#contact {
+	background-color: rgb(20, 87, 211);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	box-shadow: inset 0 0 100px #100;
+	
+}
+
+#why-us {
+	
+	background-size: cover;
+	color: rgb(10, 10, 10);
+	
+	
+}
+
+#photo {
+	background-color: rgb(20, 87, 211);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	box-shadow: inset 0 0 100px #100;
+	
+}
+
+
+.row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 1;
+	text-align: center;
+  }
+  
+  .fa {
+	font-size: 24px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
